@@ -14,6 +14,7 @@ body {
     --text-color: #FFFFFF;
     --hover-color: #FFFF3F;
     --off-white: #E9ECEF;
+    --light-color:#FAEDCD;
 }
 
 .pagewrap {
@@ -117,6 +118,7 @@ body {
 .info{
     /* justify-items: center; */
     text-align: justify;
+    margin:0 0.5rem;
 }
 .badge-container{
     display: flex;
@@ -132,6 +134,8 @@ body {
     font-size:large;
     display: flex;
     justify-content: flex-start;
+    padding:1rem;
+    border-bottom: 1px solid;
 }
 .badge{
     border-radius: 0.5rem;
@@ -222,7 +226,162 @@ body {
     background-color: var(--background-color);
     color:var(--text-color);
 }
-/* -------------------------------------------- */
+/* --------------------card-component------------------------ */
+.card-container{
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid var(--off-white);
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 2px solid var(--off-white);
+ }
+ .card{ 
+     margin: auto;
+     padding:1rem;
+}
+.card .img{
+     width:300px;
+     height:300px;
+     border-top-left-radius: 0.5rem;
+     border-top-right-radius: 0.5rem;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    height:fit-content;
+    background-color: var(--light-color);
+    /* color:var(--background-color); */
+    border-radius: 0.5rem;
+}
+.text{
+    padding:0.5rem;
+}
+.text h2{
+    /* padding:0px ; */
+    margin-bottom: 0;
+}
+.para{
+    padding:0.5rem;
+}
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-btn{
+    justify-content: flex-start;
+    flex:1 1 auto;
+    padding:0.5rem;
+}
+.card-icons{
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    padding:0.5rem;
+}
+.card-btn-items{
+    border:none;
+    background-color: var(--light-color);
+    border-radius: 1rem;
+    color:var(--background-color);
+}
+.card-btn-items:hover{
+    background-color: var(--background-color);
+    color:var(--text-color);
+}
+.card-icons .fa{
+   padding-inline-end: 1rem; 
+   padding:0.5rem;
+   border-radius: 50%;
+   text-align: center;
+   font-size: large;
+   color:var(--background-color);
+}
+.card-icons .fa:hover{
+    background-color:var(--background-color);
+    color:var(--text-color);
+}
+/* ------------card-with-badge------------------- */
+.card .image{
+    display:flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.img-badge{
+    position:absolute;
+    color:var(--text-color);
+    padding:1rem;
+    background-color: var(--background-color);
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+/* -------text-overlay------------- */
+.img-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-overlay{
+    position: absolute;
+    color:var(--text-color);
+    padding:0.7rem;
+}
+
+.text-only{
+    background-color: var(--off-white);
+    /* width:400px; */
+    border: 2px solid var(--hover-color);
+}
+.text-only .text{
+    /* text-align: center; */
+    color:var(--background-color);
+}
+.text-only .card-buttons{
+    border-top:1px solid var(--background-color);
+    padding: 0 1rem;
+}
+.text-only .card-btn-items{
+    background-color: var(--off-white);
+    color:var(--background-color);
+}
+.text-only .card-btn-items:hover{
+    background-color: var(--background-color);
+    color:var(--text-color);
+}
+/* -----------------image-horizon------------------- */
+.container-horizon{
+    /* padding:1rem; */
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    height: fit-content;
+    background-color: var(--light-color);
+    border-radius:0.5rem;
+}
+.oneside{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    /* border:0.5rem; */
+}
+.img-horizon{
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 0.5rem;
+}
+.text-horizon{
+    padding:0.5rem;
+}
+.text-horizon h3{
+    margin: 0;
+    padding-top:1rem;
+}
+.shadow-cont{
+    box-shadow: 5px 5px 5px 5px var(--off-white);
+}
+/* ----------------------------------------------------------- */
 .code{
     display:flex;
     justify-content: center;
