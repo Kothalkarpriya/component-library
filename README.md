@@ -1,6 +1,6 @@
 # COMPONENT LIBRARY
 
-Link: https://xenodochial-agnesi-6fb9ec.netlify.app/
+Link: https://component-library-priya.netlify.app/
 
 "Welcome to Priya's Component Library!"
 
