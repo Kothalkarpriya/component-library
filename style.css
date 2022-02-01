@@ -15,8 +15,8 @@ body {
     --hover-color: #FFFF3F;
     --off-white: #E9ECEF;
     --light-color: #FAEDCD;
-    --success:#70E000;
-    --warning:#D00000;
+    --success: #70E000;
+    --warning: #D00000;
 }
 
 .pagewrap {
@@ -442,20 +442,25 @@ body {
     border-radius: 0.5rem;
     background-color: var(--off-white);
 }
-.msg-alert i{
+
+.msg-alert i {
     padding-right: 1rem;
 }
-.success{
-    background-color:var(--success);
-    
+
+.success {
+    background-color: var(--success);
+
 }
-.danger{
+
+.danger {
     background-color: var(--warning);
     font-weight: bold;
 }
-.error{
+
+.error {
     background-color: var(--hover-color);
 }
+
 .code {
     display: flex;
     justify-content: center;
