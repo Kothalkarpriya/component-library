@@ -5,7 +5,6 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* min-width:290px; */
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -20,12 +19,10 @@ body {
 }
 
 .pagewrap {
-    /* padding:2rem; */
     background-color: var(--off-white);
     max-width: 1000px;
     margin: auto;
     display: grid;
-    /* height:100vh; */
     grid-gap: 5px;
     grid-template-columns: 200px 1fr;
     grid-template-areas:
@@ -37,7 +34,6 @@ body {
 }
 
 .header {
-    /* position: fixed; */
     grid-area: header;
     font-size: 2rem;
     font-weight: bold;
@@ -53,7 +49,7 @@ body {
     grid-area: nav;
     top: 0;
     left: 0;
-    padding-top: 1rem;
+    padding-top:1rem;
 }
 
 .nav-list {
@@ -93,8 +89,6 @@ body {
     font-weight: bold;
     color: var(--background-color);
     text-align: center;
-    /* background-color: #ffffff; */
-}
 
 .container-info {
     padding: 1rem;
@@ -102,9 +96,8 @@ body {
     flex-direction: column;
 
 }
+.info{
 
-.info {
-    /* justify-items: center; */
     text-align: justify;
     margin: 0 0.5rem;
 }
@@ -114,8 +107,6 @@ body {
     flex-direction: column;
     padding: 1rem;
     border-bottom: 2px solid var(--off-white);
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 /*---------------- badge----------------------- */
@@ -173,7 +164,6 @@ body {
     width: 30px;
     height: 25px;
     text-align: center;
-    /* align-items: center; */
 }
 
 /* --------------------button-component-------------------- */
@@ -205,10 +195,9 @@ body {
     color: var(--text-color);
 }
 
-.link-btn {
-    /* text-decoration: none; */
-    border: none;
-    color: var(--background-color);
+.link-btn{
+    border:none;
+    color:var(--background-color);
 }
 
 .icon-btn {
@@ -216,7 +205,6 @@ body {
     align-items: center;
     gap: 5px;
     border: none;
-    /* vertical-align: center; */
 }
 
 .float-btn {
@@ -234,8 +222,6 @@ body {
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid var(--off-white);
-    /* align-items: center; */
-    /* justify-content: center; */
     border: 2px solid var(--off-white);
 }
 
@@ -264,9 +250,8 @@ body {
     padding: 0.5rem;
 }
 
-.text h2 {
-    /* padding:0px ; */
-    margin-bottom: 0;
+.text h2{
+margin-bottom: 0;
 }
 
 .para {
@@ -349,13 +334,11 @@ body {
 
 .text-only {
     background-color: var(--off-white);
-    /* width:400px; */
     border: 2px solid var(--hover-color);
 }
 
-.text-only .text {
-    /* text-align: center; */
-    color: var(--background-color);
+.text-only .text{
+    color:var(--background-color);
 }
 
 .text-only .card-buttons {
@@ -374,9 +357,9 @@ body {
 }
 
 /* -----------------image-horizon------------------- */
-.container-horizon {
-    /* padding:1rem; */
-    display: flex;
+
+.container-horizon{
+    display:flex;
     flex-direction: column;
     width: 350px;
     height: fit-content;
@@ -387,8 +370,6 @@ body {
 .oneside {
     display: flex;
     flex-direction: row;
-    /* justify-content:space-between; */
-    /* border:0.5rem; */
 }
 
 .img-horizon {
@@ -410,6 +391,7 @@ body {
     box-shadow: 5px 5px 5px 5px var(--off-white);
 }
 
+
 /* ------------------Alert component----------------- */
 
 .alert-container {
@@ -418,7 +400,6 @@ body {
     padding: 1rem;
     border-radius: 0.5rem;
     border: 2px solid var(--off-white);
-
 }
 
 .alert {
@@ -457,6 +438,39 @@ body {
 
 .code {
     display: flex;
+/* ------------avatar-feature-------------- */
+.avatar-container{
+    padding:1rem;
+    display:flex;
+    flex-direction:column;
+    border-radius:0.5rem;
+    border:1px solid var(--off-white);
+}
+.avatar-image{
+    height:50px;
+    width:50px;
+}
+.avatar{
+    padding:1rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.round-image{
+    border-radius: 50%; 
+}
+.avatar .image{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.border-image{
+    margin: 1rem;
+    border: 10px solid var(--hover-color);
+}
+/* ----------------------------------------------------------- */
+.code{
+    display:flex;
     justify-content: center;
 }
 
