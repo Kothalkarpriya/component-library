@@ -381,6 +381,39 @@ body {
 .shadow-cont{
     box-shadow: 5px 5px 5px 5px var(--off-white);
 }
+
+/* ------------avatar-feature-------------- */
+.avatar-container{
+    padding:1rem;
+    display:flex;
+    flex-direction:column;
+    border-radius:0.5rem;
+    border:1px solid var(--off-white);
+}
+.avatar-image{
+    height:50px;
+    width:50px;
+}
+.avatar{
+    padding:1rem;
+    display:flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.img-round{
+    border-radius: 50% !important; 
+    /* border: 1px solid; */
+}
+.avatar .image{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-border{
+    margin: 1rem;
+    border: 10px solid var(--hover-color);
+}
 /* ----------------------------------------------------------- */
 .code{
     display:flex;
