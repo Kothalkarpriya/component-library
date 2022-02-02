@@ -469,6 +469,30 @@ margin-bottom: 0;
     margin: 1rem;
     border: 10px solid var(--hover-color);
 }
+/* ---------------------image-component-------------- */
+.image-container{
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    border: 2px solid var(--off-white);
+    border-radius: 0.5rem;
+}
+.image-feature{
+    padding:1rem;
+    display:flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-feat{
+    max-width:80%;
+    height:auto;
+}
+
+.img-round{
+    border-radius:50%;
+}
 /* ----------------------------------------------------------- */
 .code{
     display:flex;
