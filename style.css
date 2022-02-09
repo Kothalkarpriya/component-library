@@ -527,6 +527,53 @@ body {
     color: var(--warning);
 }
 
+/* ----text-utilities -------*/
+.text-utility-container{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    border:1px solid var(--off-white);
+    border-radius: 0.5rem;
+    margin-bottom:1rem;
+}
+.text-utility{
+    padding:0.2rem;
+    text-align: center;
+}
+
+.lower-text{
+    text-transform: lowercase;
+}
+.upper-text{
+    text-transform: uppercase;
+}
+.grey-text{
+    color:var(--off-white);
+}
+.normal-text{
+    font-size: medium;
+}
+.small-text{
+    font-size:small;
+}
+.extra-small-text{
+    font-size: smaller;
+}
+.large-text{
+    font-size: large;
+}
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
 /* -------------------------------------------------- */
 .code-container{
     display: flex;
