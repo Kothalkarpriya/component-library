@@ -334,7 +334,6 @@ body {
 
 .text-only .card-buttons {
     border-top: 1px solid var(--background-color);
-    padding: 0 1rem;
 }
 
 .text-only .card-btn-items {
