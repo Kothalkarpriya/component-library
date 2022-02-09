@@ -573,6 +573,7 @@ body {
 .text-align-left{
     text-align: left;
 }
+
 /* -navigation-------- */
 .nav-container{
     display: flex;
@@ -640,6 +641,25 @@ body {
     list-style: none;
     padding-inline-end: 1rem;
   }
+
+/* --------List COmponent------ */
+.list-container{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    border:1px solid var(--off-white);
+    border-radius: 0.5rem;
+    margin-bottom:1rem;
+}
+.unordered-list{
+    list-style: none;
+}
+.list-ele{
+    padding:0.2rem;
+}
+.list-ele:hover{
+    color:var(--success);
+}
 /* -------------------------------------------------- */
 .code-container{
     display: flex;
