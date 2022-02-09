@@ -574,6 +574,14 @@ body {
     text-align: left;
 }
 /* -navigation-------- */
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border:1px solid var(--off-white);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
 .navigation{
     display: flex;
     flex-wrap: wrap;
@@ -581,6 +589,7 @@ body {
     background-color: var(--background-color);
     color:var(--text-color);
     border-radius: 0.5rem;
+    margin-bottom: 1rem;
 }
 .oneside {
     /* top: 10px; */
