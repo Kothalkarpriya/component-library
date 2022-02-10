@@ -643,7 +643,7 @@ body {
   }
 
 /* --------List COmponent------ */
-.list-container,.modal-container{
+.list-container,.modal-container, .rating-container{
     display: flex;
     flex-direction: column;
     padding:1rem;
@@ -705,6 +705,19 @@ body {
     border-radius: 0.5rem;
 }
 
+/*---- rating feature------- */
+.rating{
+    padding:1rem;
+    font-size: 1.5rem;
+    color:var(--hover-color);
+
+}
+.checked{
+    color:var(--background-color);
+}
+.fa-star:hover{
+    color:var(--background-color);
+}
 /* -------------------------------------------------- */
 .code-container{
     display: flex;
