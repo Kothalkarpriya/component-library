@@ -660,8 +660,8 @@ body {
 }
 
 /* --------List COmponent------ */
-.list-container,.modal-container, .rating-container{
-.list-container {
+.list-container,.modal-container, .rating-container,
+.list-container,.slider-container {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -813,6 +813,18 @@ body {
     grid-template-areas:
     "one two three" ;
 }
+/* ---slider------- */
+.slider{
+    padding:1rem;
+    margin:1rem;
+    display:flex;
+    justify-content: center;
+}
+.default-slider{
+    cursor: pointer;
+    accent-color: var(--background-color);
+}
+
 /* -------------------------------------------------- */
 .code-container {
     display: flex;
