@@ -660,6 +660,7 @@ body {
 }
 
 /* --------List COmponent------ */
+.list-container,.modal-container, .rating-container{
 .list-container {
     display: flex;
     flex-direction: column;
@@ -717,6 +718,65 @@ body {
     width: 17px;
 }
 
+/* -------modal -component------- */
+
+.modal-container .btn{
+    color:var(--text-color);
+    background-color: var(--background-color);
+    margin:0.5rem;
+    border:none;
+}
+.modal{
+    display: flex;
+    justify-content: center ;
+    padding:1rem;
+}
+.modals{
+    border-top:1px solid var(--background-color);
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.modals ,.deafult-modal{
+    /* color:var(--light-color); */
+    background-color: var(--off-white);
+}
+.alert-modal, .simple-modal{
+    background-color: white;
+    color:var(--background-color);
+    padding:1rem;
+    border: 1px solid var(--off-white);
+    box-shadow: 0 0 5px var(--off-white);
+}
+.unorder-li-group{
+    list-style: none;
+    padding:0.5rem;
+}
+.modal-li-item{
+    padding:0.5rem 0;
+    margin-left:0.5rem;
+    text-align:center;
+}
+.modal-li-item:hover{
+    background-color:var(--off-white);
+    border-radius: 0.5rem;
+}
+
+/*---- rating feature------- */
+.rating{
+    padding:1rem;
+    font-size: 1.5rem;
+    color:var(--hover-color);
+
+}
+.checked{
+    color:var(--background-color);
+}
+.fa-star:hover{
+    color:var(--background-color);
+}
+
 .toast-icon:hover {
     background-color: #495057;
     color: white;
@@ -724,8 +784,6 @@ body {
     border-radius: 50%;
     text-align: center;
 }
-
-
 /* -------------------------------------------------- */
 .code-container {
     display: flex;

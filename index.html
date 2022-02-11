@@ -25,9 +25,10 @@
                 <li><a href="#image" class="nav-item">Image</a></li>
                 <li><a href="#input" class="nav-item">Input</a></li>
                 <li><a href="#text-utilities" class="nav-item">Text Utility</a></li>
-                <li><a href="#navigation" class="nav-item">Navigation</a></li>
                 <li><a href="#lists" class="nav-item">Lists</a></li>
-
+                <li><a href="#navigation" class="nav-item">Navigation</a></li>
+                <li><a href="#modal" class="nav-item">Modal</a></li>
+                <li><a href="#rating" class="nav-item">Rating</a></li>
                 <li><a href="#toast" class="nav-item">Toast</a></li>
             </ul>
         </nav>
@@ -650,7 +651,8 @@
                             </ul>
                         </div>
                         <div class="code-container">
-                            <iframe src="https://www.thiscodeworks.com/embed/6203f57ec6efb50015062d7f" style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                            <iframe src="https://www.thiscodeworks.com/embed/6203f57ec6efb50015062d7f"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
                         </div>
                     </div>
                     <div class="list-container">
@@ -675,7 +677,8 @@
                             </ul>
                         </div>
                         <div class="code-container">
-                            <iframe src="https://www.thiscodeworks.com/embed/6203f5a8c6efb50015062d80" style="width: 100%; height: 307px;" frameborder="0"></iframe>
+                            <iframe src="https://www.thiscodeworks.com/embed/6203f5a8c6efb50015062d80"
+                                style="width: 100%; height: 307px;" frameborder="0"></iframe>
                         </div>
                     </div>
                 </article>
@@ -686,35 +689,90 @@
                 <header class="section-header">Navigation</header>
                 <article class="container-info">
                     <div class="info">
-                        <h4>Navbars are responsive by default, but you can easily modify them to change that. Responsive behavior depends on our Collapse JavaScript plugin.</h4>
+                        <h4>Navbars are responsive by default, but you can easily modify them to change that. Responsive
+                            behavior depends on our Collapse JavaScript plugin.</h4>
                     </div>
                     <div class="nav-container">
                         <div class="text-badge">Navbar component</div>
                         <div class="navigation">
                             <div class="oneside">
                                 <button class="btn-navbar">
-                                  <i class="fa fa-bars"></i>
+                                    <i class="fa fa-bars"></i>
                                 </button>
                                 <div class="title-navbar">
-                                  San Francisco, CA
+                                    San Francisco, CA
                                 </div>
-                              </div>
+                            </div>
                             <div class="other-side">
                                 <ul class="list-navbar">
-                                  <li class="list">
-                                    <i class="fa fa-download"></i>
-                                  </li>
-                                  <li class="list">
-                                    <i class="fa fa-print"></i>
-                                  </li>
-                                  <li class="list">
-                                    <i class="fa fa-bookmark"></i>
-                                  </li>
+                                    <li class="list">
+                                        <i class="fa fa-download"></i>
+                                    </li>
+                                    <li class="list">
+                                        <i class="fa fa-print"></i>
+                                    </li>
+                                    <li class="list">
+                                        <i class="fa fa-bookmark"></i>
+                                    </li>
                                 </ul>
-                              </div>
+                            </div>
                         </div>
                         <div class="code-container">
-                            <iframe src="https://www.thiscodeworks.com/embed/6203fe1cc6efb50015062d93" style="width: 100%; height: 385px;" frameborder="0"></iframe>
+                            <iframe src="https://www.thiscodeworks.com/embed/6203fe1cc6efb50015062d93"
+                                style="width: 100%; height: 385px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- modal component -->
+            <section class="section" id="modal">
+                <header class="section-header">Modal</header>
+                <article class="container-info">
+                    <div class="info">
+                        <h4>Modal is a dialog box/ popup window that is displayed on top of the current page </h4>
+                    </div>
+                    <div class="modal-container">
+                        <div class="text-badge">Simple Modal</div>
+                        <div class="modal">
+                            <button onclick="document.getElementById('modal-dis').style.display='block' " class="btn"
+                                type="button" id="alert-btn">Open Modal</button>
+                        </div>
+                        <div class="modals" id="modal-dis">
+                            <div class="modal-display">
+                                <div onclick="document.getElementById('modal-dis').style.display='none' "
+                                    class="alert-modal">
+                                    <h4 class="modal-heading">Alert Modal</h4>
+                                    <p class="small-text">Modal Body Text</p>
+                                    <button class="btn action-btn">Action 1</button><button
+                                        class="btn action-btn">Action 2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/620548c5a4f5770015a884b9"
+                                style="width: 100%; height: 242px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- rating component -->
+            <section class="section" id="rating">
+                <header class="section-header">Rating</header>
+                <article class="container-info">
+                    <div class="info"><h4></h4></div>
+                    <div class="rating-container">
+                        <div class="text-badge">Rating (for eCommerce)</div>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/62054d8aa4f5770015a884bc" style="width: 100%; height: 177px;" frameborder="0"></iframe>
                         </div>
                     </div>
                 </article>
