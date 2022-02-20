@@ -85,7 +85,14 @@ body {
     color: var(--background-color);
 }
 
-.container-info, .badge, .button,.alert, .avatar, .image-container, .input-block, .lists{
+.container-info,
+.badge,
+.button,
+.alert,
+.avatar,
+.image-container,
+.input-block,
+.lists {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -99,7 +106,17 @@ body {
 .badge-container .list-container,
 .modal-container,
 .rating-container,
-.slider-container,.button-container,.card-container,.alert-container,.avatar-container,.input-container,.grid-container,.text-utility-container,.nav-container,.image-container, .toast-container {
+.slider-container,
+.button-container,
+.card-container,
+.alert-container,
+.avatar-container,
+.input-container,
+.grid-container,
+.text-utility-container,
+.nav-container,
+.image-container,
+.toast-container {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -455,7 +472,8 @@ body {
 
 /* -----------------input-feature----------------- */
 
-.input-block, .lists {
+.input-block,
+.lists {
     justify-content: center;
     align-items: center;
 }
@@ -491,7 +509,7 @@ body {
     color: var(--off-white);
 }
 
-.medium-text{
+.medium-text {
     font-size: medium;
 }
 
@@ -516,7 +534,6 @@ body {
 }
 
 /* -navigation-------- */
-
 .navigation {
     display: flex;
     flex-wrap: wrap;
@@ -566,6 +583,69 @@ body {
 .title-navbar:hover {
     color: var(--hover-color);
 }
+.drawer{
+    margin:auto;
+}
+
+.drawer-container {
+    padding: 1rem;
+    background-color: var(--background-color);
+    width: 250px;
+    height: max-content;
+    margin:1rem 0;
+}
+
+.drawer-heading {
+    padding: 0 0 1rem 0;
+}
+
+.drawer-heading h3 {
+    font-size: 1.8rem;
+    color:var(--text-color);
+}
+
+.drawer-heading h6 {
+    font-size: 1rem;
+}
+
+.drawer-heading h3,
+.drawer-heading h6 {
+    padding: 1px;
+    margin: 0;
+}
+
+.drawer-items {
+    display: grid;
+}
+
+.drawer-list {
+    list-style: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.drawer-list:hover {
+    background-color: #d8e2dc;
+    color:var(--background-color);
+}
+
+.drawer-list i {
+    color:var(--text-color);
+    margin-right: 14px;
+}
+
+.drawer-list span {
+    display: flex;
+    align-items: center;
+    color:var(--text-color);
+    margin-right: 14px;
+}
+.drawer-list i:hover, .drawer-list span:hover{
+    color:var(--background-color);
+}
 
 /* --------List COmponent------ */
 .list:hover {
@@ -596,9 +676,10 @@ body {
 }
 
 /* ------toast feature---- */
-.toast-container{
+.toast-container {
     justify-content: center;
 }
+
 .toast {
     display: flex;
     align-items: center;
@@ -608,10 +689,12 @@ body {
     padding: 0.5rem 0;
     color: #ced4da;
     width: 80%;
-    margin:1rem auto;
+    margin: 1rem auto;
 }
 
-.toast-item, .toast-btn,.toast-icon {
+.toast-item,
+.toast-btn,
+.toast-icon {
     margin: 10px;
 }
 
@@ -677,8 +760,9 @@ body {
     font-size: 1.5rem;
     color: var(--hover-color);
 }
-.rating .fa{
-    margin:0.5rem;
+
+.rating .fa {
+    margin: 0.5rem;
 }
 
 .checked {
@@ -744,7 +828,7 @@ body {
 }
 
 .footer {
-    padding:1rem;
+    padding: 1rem;
     font-size: large;
     grid-area: footer;
     color: var(--text-color);
@@ -752,9 +836,10 @@ body {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
-.footer a.footer-link{
+
+.footer a.footer-link {
     text-decoration: none;
-    color:var(--text-color);
+    color: var(--text-color);
 }
 
 
@@ -779,11 +864,13 @@ body {
             "nav main"
             "footer footer";
     }
-    .nav .nav-item{
+
+    .nav .nav-item {
         font-size: 1.1rem;
     }
-    .nav .nav-list li{
-        padding:1rem 0.5rem;
+
+    .nav .nav-list li {
+        padding: 1rem 0.5rem;
     }
 
     #image .img-feat {
@@ -840,13 +927,23 @@ body {
         padding: 0;
     }
 
-    .avatar-container,.alert-container,.badge-container,.button-container,.card-container,.image-container,.input-container {
+    .avatar-container,
+    .alert-container,
+    .badge-container,
+    .button-container,
+    .card-container,
+    .image-container,
+    .input-container {
         padding: 0;
         margin: auto;
         border: none;
     }
 
-    .alert, .text-badge,.image-feature,.msg-alert,.input-block {
+    .alert,
+    .text-badge,
+    .image-feature,
+    .msg-alert,
+    .input-block {
         padding: 0.5rem;
     }
 }
