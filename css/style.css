@@ -590,7 +590,7 @@ body {
 .drawer-container {
     padding: 1rem;
     background-color: var(--background-color);
-    width: 250px;
+    width: 25rem;
     height: max-content;
     margin:1rem 0;
 }
@@ -627,9 +627,9 @@ body {
     justify-content: flex-start;
 }
 
-.drawer-list:hover {
-    background-color: #d8e2dc;
-    color:var(--background-color);
+.drawer-list:hover , .drawer-list:hover i, .drawer-list:hover span {
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
 
 .drawer-list i {
@@ -642,9 +642,6 @@ body {
     align-items: center;
     color:var(--text-color);
     margin-right: 14px;
-}
-.drawer-list i:hover, .drawer-list span:hover{
-    color:var(--background-color);
 }
 
 /* --------List COmponent------ */
