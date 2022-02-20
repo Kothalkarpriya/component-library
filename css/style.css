@@ -36,11 +36,15 @@ body {
 }
 
 .header {
-    grid-area: header;
-    position: sticky;
-    font-size: 2rem;
-    font-weight: bold;
+    position: fixed;
+    display: flex;
+    justify-content: center;
     padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    top: 0;
+    width: 100%;
+    grid-area: header;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     color: var(--text-color);
@@ -49,32 +53,33 @@ body {
 
 .nav {
     grid-area: nav;
+    position: fixed;
+    margin: 3rem 0;
 }
 
 .nav-list {
     list-style: none;
-    padding: 1rem 0.2rem;
+    padding: 0.7rem;
 }
 
 .nav-list li {
     margin: auto auto 0.1rem auto;
-    border-bottom: 1px solid var(--background-color);
-    padding: 1rem;
-    line-height: 3rem;
+    padding: 0.5rem 0;
 }
 
 .nav-item {
     text-decoration: none;
     color: var(--background-color);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .main {
     grid-area: main;
+    margin-top: 6rem;
 }
 
 .main .section {
-    padding: 1rem 0.2rem;
+    padding: 5rem 0.2rem;
     background-color: var(--text-color);
     margin-bottom: 1rem;
 }
@@ -177,7 +182,7 @@ body {
     height: 25px;
 }
 
-/* --------------------button-component-------------------- */
+/* ---button-component -----*/
 
 .button {
     margin: 0.5rem;
@@ -219,7 +224,7 @@ body {
     color: var(--text-color);
 }
 
-/* --------------------card-component------------------------ */
+/* --- card-component ---- */
 .card {
     margin: auto;
     padding: 1rem;
@@ -297,7 +302,7 @@ body {
     color: var(--text-color);
 }
 
-/* ------------card-with-badge------------------- */
+/* ---- card-with-badge ----- */
 .card .image {
     display: flex;
     position: relative;
@@ -313,7 +318,7 @@ body {
     border-bottom-left-radius: 0.5rem;
 }
 
-/* -------text-overlay------------- */
+/* --- text-overlay ---- */
 .img-text {
     display: flex;
     flex-direction: column;
@@ -349,7 +354,7 @@ body {
     color: var(--text-color);
 }
 
-/* -----------------image-horizon------------------- */
+/* --- image-horizon ---- */
 
 .container-horizon {
     display: flex;
@@ -385,12 +390,16 @@ body {
 }
 
 
-/* ------------------Alert component----------------- */
+/* --- Alert component ---- */
+.alert {
+    align-items: center;
+}
 
 .msg-alert {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    max-width: max-content;
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 0.5rem;
@@ -419,7 +428,7 @@ body {
     display: flex;
 }
 
-/* ------------avatar-feature-------------- */
+/* ---- avatar-feature ---- */
 
 .avatar-image {
     height: 50px;
@@ -446,7 +455,7 @@ body {
     border: 10px solid var(--hover-color);
 }
 
-/* ---------------------image-component-------------- */
+/* ---- image-component --- */
 .image-container {
     padding: 1rem;
     border: 1px solid var(--off-white);
@@ -470,7 +479,7 @@ body {
     border-radius: 50%;
 }
 
-/* -----------------input-feature----------------- */
+/* ----- input-feature ----- */
 
 .input-block,
 .lists {
@@ -491,7 +500,7 @@ body {
     color: var(--warning);
 }
 
-/* ----text-utilities -------*/
+/* -- text-utilities -------*/
 
 .text-utility {
     padding: 0.2rem;
@@ -536,7 +545,6 @@ body {
 /* -navigation-------- */
 .navigation {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -583,16 +591,17 @@ body {
 .title-navbar:hover {
     color: var(--hover-color);
 }
-.drawer{
-    margin:auto;
+
+.drawer {
+    margin: auto;
 }
 
 .drawer-container {
     padding: 1rem;
     background-color: var(--background-color);
-    width: 25rem;
+    max-width: 25rem;
     height: max-content;
-    margin:1rem 0;
+    margin: 1rem 0;
 }
 
 .drawer-heading {
@@ -601,7 +610,7 @@ body {
 
 .drawer-heading h3 {
     font-size: 1.8rem;
-    color:var(--text-color);
+    color: var(--text-color);
 }
 
 .drawer-heading h6 {
@@ -627,24 +636,26 @@ body {
     justify-content: flex-start;
 }
 
-.drawer-list:hover , .drawer-list:hover i, .drawer-list:hover span {
+.drawer-list:hover,
+.drawer-list:hover i,
+.drawer-list:hover span {
     background-color: var(--text-color);
     color: var(--background-color);
 }
 
 .drawer-list i {
-    color:var(--text-color);
+    color: var(--text-color);
     margin-right: 14px;
 }
 
 .drawer-list span {
     display: flex;
     align-items: center;
-    color:var(--text-color);
+    color: var(--text-color);
     margin-right: 14px;
 }
 
-/* --------List COmponent------ */
+/* --- List COmponent --- */
 .list:hover {
     color: var(--hover-color);
 }
@@ -685,7 +696,7 @@ body {
     border-radius: 0.3rem;
     padding: 0.5rem 0;
     color: #ced4da;
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
 }
 
@@ -712,7 +723,7 @@ body {
     width: 17px;
 }
 
-/* -------modal -component------- */
+/* ---- modal -component ----- */
 
 .modal-container .btn {
     color: var(--text-color);
@@ -749,7 +760,7 @@ body {
     padding: 0.5rem;
 }
 
-/*---- rating feature------- */
+/*---- rating feature ---- */
 .rating {
     display: flex;
     padding: 1rem;
@@ -777,7 +788,7 @@ body {
     border-radius: 50%;
 }
 
-/* -grid-container-- */
+/* ---- grid-container -- */
 .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -798,7 +809,7 @@ body {
         "one two three";
 }
 
-/* ---slider------- */
+/* --- slider ----- */
 .slider {
     padding: 1rem;
     margin: 1rem;
@@ -811,7 +822,7 @@ body {
     accent-color: var(--background-color);
 }
 
-/* ------code-style-------- */
+/* --- code-style ---- */
 .code-container {
     display: flex;
     justify-content: center;
@@ -865,9 +876,11 @@ body {
     .nav .nav-item {
         font-size: 1.1rem;
     }
-
+    .nav-list{
+        padding:0.2rem;
+    }
     .nav .nav-list li {
-        padding: 1rem 0.5rem;
+        padding: 0.5rem 0.2rem;
     }
 
     #image .img-feat {
