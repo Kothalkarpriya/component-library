@@ -545,7 +545,6 @@ body {
 /* -navigation-------- */
 .navigation {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -600,7 +599,7 @@ body {
 .drawer-container {
     padding: 1rem;
     background-color: var(--background-color);
-    width: 25rem;
+    max-width: 25rem;
     height: max-content;
     margin: 1rem 0;
 }
@@ -697,7 +696,7 @@ body {
     border-radius: 0.3rem;
     padding: 0.5rem 0;
     color: #ced4da;
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
 }
 
@@ -877,9 +876,11 @@ body {
     .nav .nav-item {
         font-size: 1.1rem;
     }
-
+    .nav-list{
+        padding:0.2rem;
+    }
     .nav .nav-list li {
-        padding: 1rem 0.5rem;
+        padding: 0.5rem 0.2rem;
     }
 
     #image .img-feat {
