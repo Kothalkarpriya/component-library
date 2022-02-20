@@ -1,9 +1,8 @@
 # COMPONENT LIBRARY
-
-Link: https://component-library-priya.netlify.app/
+Live link : https://component-library-priya.netlify.app/
 
 "Welcome to Priya's Component Library!"
 
-I am creating a Component library as First Macro Project for
+Component Library is created to use its bits and bytes into our Macro and micro projects, which will reduce our work to create component again, It's ready to use parts we can use and Create our website.
 ## neogcamp.
 
