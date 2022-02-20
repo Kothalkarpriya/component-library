@@ -16,5 +16,30 @@
 
 - After Including the link tag into head tag, we can directly copy the code given for different component and paste it into our page and We are able to use it.
 
-## [@neogcamp](https://neog.camp/).
+- we have components such as: 
 
+  1. Avatar
+  2. Alert
+  3. Badge
+  4. Button
+  5. Card
+  6. Image
+  7. Input
+  8. Text Utility
+  9. Lists
+  10. Navigation
+  11. Modal
+  12. Rating
+  13. Toast
+  14. Grid
+  15. Slider
+
+- Above all are ready to use components we have.
+- We have to Copy and paste the code shown below:
+![Screenshot (83)](https://user-images.githubusercontent.com/54578811/154851150-bd7b294f-ff2f-44b1-8145-0bf4a6ccf9ef.png)
+
+- It is easy as it seems to be. 
+
+#### What are you waiting for, Let's build together!
+
+## [@neogcamp](https://neog.camp/).
