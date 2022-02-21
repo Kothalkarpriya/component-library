@@ -5,6 +5,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+    background-color: var(--off-white);
 }
 
 :root {
@@ -18,7 +19,6 @@ body {
 }
 
 .pagewrap {
-    background-color: var(--off-white);
     width: 90%;
     margin: auto;
     display: grid;
@@ -75,7 +75,6 @@ body {
 
 .main {
     grid-area: main;
-    margin-top: 6rem;
 }
 
 .main .section {
@@ -722,8 +721,6 @@ body {
     padding: 0.2rem;
     width: 17px;
 }
-
-/*  forgot to take peer reviews for modal component please do review*/
 /* ---- modal -component ----- */
 
 .modal-container .btn {
@@ -836,7 +833,7 @@ body {
     height: 151px;
 }
 
-.footer {
+footer {
     padding: 1rem;
     font-size: large;
     grid-area: footer;
@@ -846,7 +843,7 @@ body {
     border-top-right-radius: 0.5rem;
 }
 
-.footer a.footer-link {
+footer a.footer-link {
     text-decoration: none;
     color: var(--text-color);
 }
