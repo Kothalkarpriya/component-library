@@ -5,6 +5,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+    background-color: var(--off-white);
 }
 
 :root {
@@ -18,7 +19,6 @@ body {
 }
 
 .pagewrap {
-    background-color: var(--off-white);
     width: 90%;
     margin: auto;
     display: grid;
@@ -75,7 +75,6 @@ body {
 
 .main {
     grid-area: main;
-    margin-top: 6rem;
 }
 
 .main .section {
@@ -723,7 +722,6 @@ body {
     width: 17px;
 }
 
-/*  forgot to take peer reviews for modal component please do review*/
 /* ---- modal -component ----- */
 
 .modal-container .btn {
@@ -832,11 +830,7 @@ body {
     margin: auto;
 }
 
-.code-container iframe {
-    height: 151px;
-}
-
-.footer {
+footer {
     padding: 1rem;
     font-size: large;
     grid-area: footer;
@@ -846,7 +840,7 @@ body {
     border-top-right-radius: 0.5rem;
 }
 
-.footer a.footer-link {
+footer a.footer-link {
     text-decoration: none;
     color: var(--text-color);
 }
@@ -877,9 +871,11 @@ body {
     .nav .nav-item {
         font-size: 1.1rem;
     }
-    .nav-list{
-        padding:0.2rem;
+
+    .nav-list {
+        padding: 0.2rem;
     }
+
     .nav .nav-list li {
         padding: 0.5rem 0.2rem;
     }
