@@ -830,10 +830,6 @@ body {
     margin: auto;
 }
 
-.code-container iframe {
-    height: 151px;
-}
-
 footer {
     padding: 1rem;
     font-size: large;
