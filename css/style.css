@@ -721,6 +721,7 @@ body {
     padding: 0.2rem;
     width: 17px;
 }
+
 /* ---- modal -component ----- */
 
 .modal-container .btn {
@@ -874,9 +875,11 @@ footer a.footer-link {
     .nav .nav-item {
         font-size: 1.1rem;
     }
-    .nav-list{
-        padding:0.2rem;
+
+    .nav-list {
+        padding: 0.2rem;
     }
+
     .nav .nav-list li {
         padding: 0.5rem 0.2rem;
     }
